@@ -1,0 +1,11 @@
+<div class="row">
+    <app-project-edit ></app-project-edit>
+    <hr>
+    <div class="col-xs-12">
+      <ul class="list-group">
+        <a class="list-group-item" stytle="cursor : pointer" *ngFor="let p of projects">
+            {{p.name}}
+        </a>
+      </ul>
+    </div>
+</div>
